@@ -1,17 +1,16 @@
-```markdown
 # Lira iOS SDK — distribution
 
-Prebuilt `LiraAddressVerify.xcframework` for the Lira Address Verification iOS SDK.
+Prebuilt `UseliraCore.xcframework` for the Lira Address Verification iOS SDK. Requires iOS 16.0 and Swift 5.9.
 
 ## Install
 
 **CocoaPods**
 ```ruby
-pod 'Lira', '~> 1.0'
+pod 'UseliraCore', '1.1.0'
 ```
 
 **Direct XCFramework**
-Download the latest zip from [Releases](../../releases), unzip, and drag `LiraAddressVerify.xcframework` into your Xcode target.
+Download `UseliraCore-1.1.0.xcframework.zip` from the [latest release](../../releases/latest), unzip, and drag `UseliraCore.xcframework` into your Xcode target. Add the dependencies the pod would otherwise pull in: GRDB.swift (~> 6.0) and MapLibre (~> 6.0).
 
 ## License
 
@@ -20,4 +19,3 @@ Download the latest zip from [Releases](../../releases), unzip, and drag `LiraAd
 ## Support
 
 dev@uselira.com
-```
