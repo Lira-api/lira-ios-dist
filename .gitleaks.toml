@@ -1,0 +1,3 @@
+# Extends the upstream ruleset rather than replacing it.
+[extend]
+useDefault = true
